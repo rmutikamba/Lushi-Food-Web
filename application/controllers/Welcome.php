@@ -7,6 +7,9 @@ class Welcome extends CI_Controller {
 		parent::__construct();
 	}
 	
+	public function index(){
+		$this->home();
+	}
 	public function chat()
 
 	{
@@ -41,6 +44,8 @@ class Welcome extends CI_Controller {
 
 		$this->load->view('head_home');
 		$this->load->view('body_home');
+		$this->load->view('footer');
+
 		$this->load->view('globals/footer');
 		
 	}
