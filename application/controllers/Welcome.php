@@ -39,7 +39,7 @@ class Welcome extends CI_Controller {
 		
 		$this->load->view('globals/header');
 
-		$this->load->view('head_caroussel');
+		$this->load->view('head_home');
 		$this->load->view('body_home');
 		$this->load->view('globals/footer');
 		
