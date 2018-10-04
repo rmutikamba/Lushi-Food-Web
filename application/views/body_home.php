@@ -108,7 +108,7 @@
                                 <p>
                                     <h5>Cliquer pour voir les retaurants autour de vous sur la carte et choisissez le plus proche. </h5>
                                 </p>
-                                <a href="map.html"> <button type="button" class="btn btn-outline bg-orange btn-block">carte</button></a>
+                                <a href="<?php echo base_url('welcome/map');?>"> <button type="button" class="btn btn-outline bg-orange btn-block">carte</button></a>
                             </div>
                         </div>
                     </div>
