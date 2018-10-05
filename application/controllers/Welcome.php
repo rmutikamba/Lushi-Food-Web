@@ -30,6 +30,16 @@ class Welcome extends CI_Controller {
 		$this->load->view('sign_up');
 		$this->load->view('globals/footer');
 	}
+
+
+	public function profil(){
+		$this->load->view('globals/header');
+		
+
+
+		$this->load->view('profil');
+		$this->load->view('globals/footer');
+	}
 	public function map(){
 
 		$this->load->view('globals/header');
