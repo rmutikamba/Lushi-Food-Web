@@ -11,7 +11,7 @@
 
 <script src=" <?php echo base_url('assets/js/vendor/popper.min.js');?>  "> </script>
 
-<script src=" <?php echo base_url('assets/bootstrap-4.1.3-dist/js/bootstrap.min.js');?>  "> </script>
+
 
 <script src=" <?php echo base_url('assets/jQuery/apk_Glou.js');?>  "> </script>
 

@@ -1,4 +1,4 @@
-<body>
+
 
     <div class="small-top">
         <div class="container">
@@ -27,7 +27,24 @@
                 </div>
                 <div class="col-md-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
                     <nav class="nav nav-inline"> <a href="#" class="nav-link"><span class="ping"></span><i class="fa fa-envelope-o"></i></a> <a href="#" class="nav-link"><i class="fa fa-bell-o"></i></a> <a href="#" class="nav-link">Mutikamba <img class="img-fluid rounded-circle" src="http://grafreez.com/wp-content/temp_demos/river/img/admin-bg.jpg"></a>                        </nav>
+                    
                 </div>
+                <div class="admin-bar hidden-sm-down dropdown">
+                    
+                    
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                        <i class="fas fa fa-cogs"></i>
+  </button>
+  <ul class="dropdown-menu">
+      <li><a href="#">Profile</a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#">Deconnetion</a></li>
+    </ul>
+                    
+                </div>
+
+
+
             </div>
         </div>
     </div>
