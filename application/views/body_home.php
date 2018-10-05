@@ -3,13 +3,13 @@
     <div class="mb-5">
         <div class="container">
         <div class="main_title ">
-                                <h1 class="page-title">Tous les restaurants de la ville de Lubumbashi</h1>
+                                <h1 class="page-title" id="title">Tous les restaurants de la ville de Lubumbashi</h1>
                             </div><br>
                             <div class="page-title">
                                 <a class="btn btn-lg btn-primary site-btn btn-success" href="<?php echo base_url('welcome/login');?>">Connexion</a>
                                 <a class="btn btn-lg btn-primary site-btn btn-warning" href="<?php echo base_url('welcome/sign_up');?>">s inscrire</a>
                             </div>
-            <div class="row title py-3">
+            <div class="row title py-3" >
                 <h5><strong>Resultat Des Recherches Filtrees</strong></h5>
             </div>
         </div>
